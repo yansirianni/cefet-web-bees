@@ -1,0 +1,20 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(0deg, #1ad33a, #a7c2fe);
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+#logomarca {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
