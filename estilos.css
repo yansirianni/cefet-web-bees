@@ -47,3 +47,9 @@ p {
   margin-left: 20px;
   shape-outside: circle(50%);
 }
+
+#topo-da-pagina {
+  background-color: #ffffff40;
+  box-shadow: 4px 4px 4px #0003;
+  padding: 30px;
+}
