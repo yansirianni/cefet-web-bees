@@ -30,3 +30,20 @@ p {
   float: left;
   margin-right: 20px;
 }
+
+.casta-de-abelha {
+  border-radius: 50%;
+  border: 5px double #f29e0e;
+}
+
+.esquerda {
+  float: left;
+  margin-right: 20px;
+  shape-outside: circle(50%);
+}
+
+.direita {
+  float: right;
+  margin-left: 20px;
+  shape-outside: circle(50%);
+}
