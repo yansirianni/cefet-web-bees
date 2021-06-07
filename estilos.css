@@ -6,7 +6,7 @@ body {
 body {
   background-image: linear-gradient(0deg, #1ad33a, #a7c2fe);
   font-size: 20px;
-  margin: 0 20px;
+  margin: 0 40px;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
   background-image: url("imgs/favo-de-mel.png");
   border: 1px solid #f29e0e;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .curiosidade img {
@@ -52,4 +52,36 @@ p {
   background-color: #ffffff40;
   box-shadow: 4px 4px 4px #0003;
   padding: 30px;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a[href^="http"] {
+  background-color: #fdbefdc2;
+}
+
+p:last-of-type {
+  text-align: right;
+}
+
+img:not([alt]) {
+  border: 5px solid red;
 }
